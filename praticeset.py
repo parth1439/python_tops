@@ -15,9 +15,13 @@ elif marks>0 and marks<=34:
 else:
     print("invalid") """
 
-a= int(input("enter your age:"))
+"""a= int(input("enter your age:"))
 
 if(a>=18):
     print("you are adult")
 else:
-    print("you are not a adult")
+    print("you are not a adult") """
+
+
+ 
+

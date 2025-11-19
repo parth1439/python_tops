@@ -120,6 +120,19 @@ print(marks) """
 """ l=[3,4,3,2]
 print(sum(l)) """
 
-a=[7,0,8,0,0,9]
+""" a=[7,0,8,0,0,9]
 n=a.count(0)
-print(n)
+print(n) """
+
+
+p1= "make a lot of money"
+p2="buy now"
+p3="subscribe this"
+p4="click this"
+
+massage = input("enter your comment")
+
+if((p1 in massage) or (p2 in massage) or (p3 in massage) or (p4 in massage)):
+    print("this comment is a spam")
+else:
+    print("this comment is not a spam")
