@@ -1,7 +1,7 @@
-num = int(input("Enter a number: "))
-digits = len(str(num))
+n = int(input("Enter a number: "))
+digits = len(str(n))
 
-temp = num
+temp = n
 sum = 0
 
 while temp > 0:
@@ -9,7 +9,7 @@ while temp > 0:
     sum+= digit ** digits
     temp = temp // 10
 
-if sum == num:
-    print(num, "is an aramstrong number")
+if sum == n:
+    print(n, "is an aramstrong number")
 else:
-    print(num,"is not an aramstorng number")
+    print(n,"is not an aramstorng number")
