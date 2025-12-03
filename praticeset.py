@@ -22,6 +22,8 @@ if(a>=18):
 else:
     print("you are not a adult") """
 
+st = "Welcome"
 
- 
+print(st.isalpha())
+
 

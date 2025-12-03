@@ -1,23 +1,19 @@
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num1=float(input("enter a number:"))
+num2=float(input("enter a number:"))
 
-print("Select Operation: +  -  *  /")
-op = input("Enter operator: ")
+print("select opertor: + - * /")
+op=input("enter opertor:")
 
-if op == '+':
-    print("Result:", num1 + num2)
-
-elif op == '-':
-    print("Result:", num1 - num2)
-
-elif op == '*':
-    print("Result:", num1 * num2)
-
-elif op == '/':
-    if num2 != 0:
-        print("Result:", num1 / num2)
+if op =='+':
+    print("result:",num1+num2)
+elif op =='-':
+    print("result:",num1-num2)
+elif op =='*':
+    print("result:",num1*num2)
+elif op =='/':
+    if num2 !=0:
+        print("result:",num1/num2)
     else:
-        print("Error! Division by zero.")
-
+        print("error! devision by zero.")
 else:
-    print("Invalid Operator")
+    print("invalid opertor")

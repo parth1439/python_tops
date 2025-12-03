@@ -5,6 +5,6 @@ i = 1
 
 while i <= num:
     fact = fact * i    # multiply fact with i
-    i = i + 1          # increase i in every step
+    i = 1         # increase i in every step
 
 print("Factorial =", fact)
