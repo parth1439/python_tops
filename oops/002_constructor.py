@@ -34,16 +34,13 @@
 # st.display()
 
 
-class product:
-
-    def __init__(self,id,name,price):
-        print("this is a product :")
-        self.id=id
+class person:
+    def __init__(self,name,occ):
         self.name=name
-        self.price=price
+        self.occ=occ
 
-    def display(self):
-        print(self.id,self.name,self.price)
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
 
-p1=product(1,"mobile",40000)
-p1.display()
+a=person("parth","HR")
+a.info()

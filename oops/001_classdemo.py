@@ -1,4 +1,4 @@
-# class pen:
+ # class pen:
 #     price=10
 #     color="Red"
 
@@ -75,27 +75,19 @@
 
 
 class student:
-    id=10
     name="parth"
-    email="parth@gmial.com"
+    email="parth@gmail.com"
 
-    def to_write(self):
-        print(self.id,self.name,self.email)
+    def person(self):
+        print(self.name,self.email)
 
-    def displey(self):
-        print(self.id,self.name,self.email)
+    def display(self):
+        print(self.name,self.email)
 
 s1=student()
-s1.id=10
 s1.name="parth"
-s1.email="parth@gmail"
-s1.to_write()
-
-s2=student()
-s2.id=11
-s2.name="darsh"
-s2.email="darsh@gmail.com"
-s2.to_write()
+s1.email="parth@gmail.com"
+s1.person()
 
 
 

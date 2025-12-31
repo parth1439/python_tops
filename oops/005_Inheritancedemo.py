@@ -26,36 +26,36 @@
 #     def display(self):
 #         print("d calling")
 
-# c=A()
+# c=D()
 # c.display()
 
 
-class A:
-    def __init__(self):
-        print("a const calling")
+# class A:
+#     def __init__(self):
+#         print("a const calling")
 
-    def display(self):
-        print("a calling")
+#     def display(self):
+#         print("a calling")
 
-class B:
-    def __init__(self):
-        print("b const calling")
+# class B:
+#     def __init__(self):
+#         print("b const calling")
 
-    def display(self):
-        print("b calling")
+#     def display(self):
+#         print("b calling")
 
-class c(A,B):
-    def __init__(self):
-        A.__init__(self)
-        B.__init__(self)
+# class c(A,B):
+#     def __init__(self):
+#         A.__init__(self)
+#         B.__init__(self)
 
-    def display(self):
-        print("c calling")
-        B.display(self)
-        A.display(self)
+#     def display(self):
+#         print("c calling")
+#         B.display(self)
+#         A.display(self)
 
-c=c()
-c.display()
+# c=c()
+# c.display()
         
 
 

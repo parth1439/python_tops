@@ -12,17 +12,26 @@
 # c.displey()
 
 
-class student:
+# class student:
+#     name="parth"
+#     def person(self):
+#         print("parth")
+
+# class teacher(student):
+
+#     def displey(self):
+#         print("name:",self.name)
+
+# s1=teacher()
+# s1.name="darsh"
+# s1.displey()
+
+
+class school:
     name="parth"
-    def person(self):
-        print("parth")
+    email="parth@gmail.com"
+    phone=7628374944
 
-class teacher(student):
-
-    def displey(self):
-        print("name:",self.name)
-
-s1=teacher()
-s1.name="darsh"
-s1.displey()
+    def student(self,name,email,phone):
+        print()
 
