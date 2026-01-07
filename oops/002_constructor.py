@@ -43,4 +43,4 @@ class person:
         print(f"{self.name} is a {self.occ}")
 
 a=person("parth","HR")
-a.info()
+a.info()   
